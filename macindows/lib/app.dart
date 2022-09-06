@@ -1,4 +1,3 @@
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 import 'screens/desktop/screen.dart';
@@ -13,7 +12,7 @@ class MacindowsApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        textTheme: GoogleFonts.sourceSansProTextTheme(),
+        fontFamily: 'SourceSansPro',
       ),
       home: const DesktopScreen(),
     );

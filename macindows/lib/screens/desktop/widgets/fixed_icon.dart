@@ -15,7 +15,7 @@ class FixedIconWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        appWindow.close();
+        if (imagePath.contains('shutdown')) appWindow.close();
       },
       child: Tooltip(
         margin: const EdgeInsets.all(6),
