@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ? Icons.flashlight_on
                               : Icons.flashlight_off,
                           color: Colors.grey,
-                          size: 45,
+                          size: 60,
                         ),
                       ),
                     ),
