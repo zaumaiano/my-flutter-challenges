@@ -95,7 +95,8 @@ class _HomePageState extends State<HomePage> {
           ],
           title: const Text(
             'Stranger Love',
-            style: TextStyle(fontFamily: 'ST', color: Colors.red, shadows: [
+            style:
+                TextStyle(fontFamily: 'Benguiat', color: Colors.red, shadows: [
               Shadow(offset: Offset(-0.5, -0.5), color: Colors.white),
               Shadow(offset: Offset(0.5, -0.5), color: Colors.white),
               Shadow(offset: Offset(0.5, 0.5), color: Colors.white),
@@ -350,7 +351,7 @@ class _HomePageState extends State<HomePage> {
           label: const Text(
             'Mensagem',
             style: TextStyle(
-              fontFamily: 'ST',
+              fontFamily: 'Benguiat',
               fontSize: 10,
               color: Colors.white,
             ),
