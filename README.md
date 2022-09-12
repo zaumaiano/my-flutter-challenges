@@ -10,7 +10,7 @@ React with a ⭐️ if you find it interesting and explore the challenges 😉
 
 | [Geometric Violin](https://github.com/zaumaiano/my-flutter-challenges/blob/main/geometric_violin/lib/app.dart) | [GameBoy Illustration](https://github.com/zaumaiano/my-flutter-challenges/blob/main/gameboy/lib/app.dart) | [Flashlight Password](https://github.com/zaumaiano/my-flutter-challenges/blob/main/flashlight_password/lib/app.dart) |
 | ------------- | ------------- | ------------- |
-| <img src="https://github.com/zaumaiano/my-flutter-challenges/tree/main/geometric_violin/assets/screenshot.png" height="480"> | <img src="https://github.com/zaumaiano/my-flutter-challenges/tree/main/gameboy/assets/screenshot.png" height="480"> | <img src="https://github.com/zaumaiano/my-flutter-challenges/tree/main/flashlight_password/assets/screenshot.png" height="480"> |
+| <img src="/geometric_violin/assets/screenshot.png" height="480"> | <img src="https://github.com/zaumaiano/my-flutter-challenges/tree/main/gameboy/assets/screenshot.png" height="480"> | <img src="https://github.com/zaumaiano/my-flutter-challenges/tree/main/flashlight_password/assets/screenshot.png" height="480"> |
 
 ## Getting Started
 
