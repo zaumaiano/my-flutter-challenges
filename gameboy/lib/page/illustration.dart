@@ -22,156 +22,156 @@ class _IllustrationPageState extends State<IllustrationPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFd24858),
-      body: SizedBox(
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Stack(
-              clipBehavior: Clip.none,
-              children: [
-                const ShadowGameBoyWidget(),
-                Container(
-                  height: 600,
-                  width: 400,
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFfec16c),
-                    border: Border.all(
-                      width: 6,
-                      color: const Color(0xFF110400),
+      body: Center(
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Stack(
+                clipBehavior: Clip.none,
+                children: [
+                  const ShadowGameBoyWidget(),
+                  Container(
+                    height: 600,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      color: const Color(0xFFfec16c),
+                      border: Border.all(
+                        width: 6,
+                        color: const Color(0xFF110400),
+                      ),
+                      gradient: const LinearGradient(
+                        colors: [
+                          Color(0xFFfec06b),
+                          Color(0xFFe8a95e),
+                        ],
+                        begin: Alignment.centerLeft,
+                        end: Alignment.centerRight,
+                      ),
+                      borderRadius: const BorderRadius.only(
+                        topLeft: Radius.circular(18),
+                        topRight: Radius.circular(18),
+                        bottomRight: Radius.circular(50),
+                        bottomLeft: Radius.circular(18),
+                      ),
                     ),
-                    gradient: const LinearGradient(
-                      colors: [
-                        Color(0xFFfec06b),
-                        Color(0xFFe8a95e),
-                      ],
-                      begin: Alignment.centerLeft,
-                      end: Alignment.centerRight,
-                    ),
-                    borderRadius: const BorderRadius.only(
-                      topLeft: Radius.circular(18),
-                      topRight: Radius.circular(18),
-                      bottomRight: Radius.circular(50),
-                      bottomLeft: Radius.circular(18),
-                    ),
-                  ),
-                  child: Stack(
-                    clipBehavior: Clip.none,
-                    children: [
-                      Row(
-                        children: [
-                          const LeftGameboyBorderWidget(),
-                          Expanded(
-                            child: SizedBox(
-                              height: MediaQuery.of(context).size.height,
-                              child: Container(
-                                decoration: const BoxDecoration(
-                                  color: Color(0xFFfaa41b),
-                                  borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(18),
-                                    topRight: Radius.circular(13),
-                                    bottomRight: Radius.circular(150),
-                                    bottomLeft: Radius.circular(18),
-                                  ),
-                                ),
-                                child: Material(
-                                  shape: const BeveledRectangleBorder(
+                    child: Stack(
+                      clipBehavior: Clip.none,
+                      children: [
+                        Row(
+                          children: [
+                            const LeftGameboyBorderWidget(),
+                            Expanded(
+                              child: SizedBox(
+                                height: MediaQuery.of(context).size.height,
+                                child: Container(
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFFfaa41b),
                                     borderRadius: BorderRadius.only(
-                                      topLeft: Radius.circular(20),
-                                      topRight: Radius.circular(20),
-                                      bottomLeft: Radius.circular(20),
-                                      bottomRight: Radius.circular(
-                                        90,
-                                      ),
+                                      topLeft: Radius.circular(18),
+                                      topRight: Radius.circular(13),
+                                      bottomRight: Radius.circular(150),
+                                      bottomLeft: Radius.circular(18),
                                     ),
                                   ),
-                                  color: const Color(0xFFfaa41b),
-                                  child: Stack(
-                                    clipBehavior: Clip.none,
-                                    children: [
-                                      Positioned(
-                                        top: 40,
-                                        right: 10,
-                                        left: 10,
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(15.0),
-                                          child: SizedBox(
-                                            width: MediaQuery.of(context)
-                                                .size
-                                                .width,
-                                            child: Padding(
-                                              padding:
-                                                  const EdgeInsets.all(20.0),
-                                              child: Column(
-                                                children: [
-                                                  const ScreenGameBoyWidget(),
-                                                  const SizedBox(height: 15),
-                                                  Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .center,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .center,
-                                                    children: [
-                                                      const SizedBox(
-                                                          height: 20),
-                                                      Row(
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .center,
-                                                        crossAxisAlignment:
-                                                            CrossAxisAlignment
-                                                                .center,
-                                                        children: const [
-                                                          Expanded(
-                                                            child:
-                                                                PlusGroupButtonsWidget(),
-                                                          ),
-                                                          SizedBox(width: 25),
-                                                          Expanded(
-                                                            child:
-                                                                RedButtonWidget(),
-                                                          ),
-                                                        ],
-                                                      ),
-                                                      const SizedBox(
-                                                          height: 30),
-                                                      const BottomButtonsWidget()
-                                                    ],
-                                                  )
-                                                ],
+                                  child: Material(
+                                    shape: const BeveledRectangleBorder(
+                                      borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(20),
+                                        topRight: Radius.circular(20),
+                                        bottomLeft: Radius.circular(20),
+                                        bottomRight: Radius.circular(
+                                          90,
+                                        ),
+                                      ),
+                                    ),
+                                    color: const Color(0xFFfaa41b),
+                                    child: Stack(
+                                      clipBehavior: Clip.none,
+                                      children: [
+                                        Positioned(
+                                          top: 40,
+                                          right: 10,
+                                          left: 10,
+                                          child: Padding(
+                                            padding: const EdgeInsets.all(15.0),
+                                            child: SizedBox(
+                                              width: MediaQuery.of(context)
+                                                  .size
+                                                  .width,
+                                              child: Padding(
+                                                padding:
+                                                    const EdgeInsets.all(20.0),
+                                                child: Column(
+                                                  children: [
+                                                    const ScreenGameBoyWidget(),
+                                                    const SizedBox(height: 15),
+                                                    Column(
+                                                      crossAxisAlignment:
+                                                          CrossAxisAlignment
+                                                              .center,
+                                                      mainAxisAlignment:
+                                                          MainAxisAlignment
+                                                              .center,
+                                                      children: [
+                                                        const SizedBox(
+                                                            height: 20),
+                                                        Row(
+                                                          mainAxisAlignment:
+                                                              MainAxisAlignment
+                                                                  .center,
+                                                          crossAxisAlignment:
+                                                              CrossAxisAlignment
+                                                                  .center,
+                                                          children: const [
+                                                            Expanded(
+                                                              child:
+                                                                  PlusGroupButtonsWidget(),
+                                                            ),
+                                                            SizedBox(width: 25),
+                                                            Expanded(
+                                                              child:
+                                                                  RedButtonWidget(),
+                                                            ),
+                                                          ],
+                                                        ),
+                                                        const SizedBox(
+                                                            height: 30),
+                                                        const BottomButtonsWidget()
+                                                      ],
+                                                    )
+                                                  ],
+                                                ),
                                               ),
                                             ),
                                           ),
                                         ),
-                                      ),
-                                      const Positioned(
-                                        bottom: -25,
-                                        right: 5,
-                                        child: BottomRightLinesWidget(),
-                                      ),
-                                    ],
+                                        const Positioned(
+                                          bottom: -25,
+                                          right: 5,
+                                          child: BottomRightLinesWidget(),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
-                          ),
-                          const RightGameboyBorderWidget(),
-                        ],
-                      ),
-                      const BottomGameboyBorderWidget(),
-                      const Positioned(
-                        child: TopLinesScreenWidget(),
-                      )
-                    ],
+                            const RightGameboyBorderWidget(),
+                          ],
+                        ),
+                        const BottomGameboyBorderWidget(),
+                        const Positioned(
+                          child: TopLinesScreenWidget(),
+                        )
+                      ],
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
