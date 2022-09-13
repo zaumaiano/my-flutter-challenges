@@ -1,16 +1,5 @@
-# light_messages
+# Light Messages
 
-A new Flutter project.
+I tried clone **Joyce Christmas Lights** on **[Link]([https://dribbble.com/shots/14873955-Geometric-Violin](https://www.youtube.com/watch?v=jIQ9z2bxXyg))**
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Joyce Christmas Lights](https://media.glamourmagazine.co.uk/photos/6138b4441145ea59e77e78fc/master/w_1600,c_limit/stranger_glamour_13oct16_net-b.jpg)
