@@ -12,6 +12,10 @@ React with a ⭐️ if you find it interesting and explore the challenges 😉
 |:-:|:-:|
 |![Geometric Violin](covers/geometric_violin.png)|![GameBoy](covers/gameboy.png)
 
+| [Macindows](https://github.com/zaumaiano/my-flutter-challenges/blob/main/macindows/lib/app.dart) |
+|:-:|
+|![Macindows](covers/macindows.gif)|
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
