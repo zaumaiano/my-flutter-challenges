@@ -12,6 +12,10 @@ React with a ⭐️ if you find it interesting and explore the challenges 😉
 |:-:|:-:|
 |![Geometric Violin](covers/geometric_violin.png)|![GameBoy](covers/gameboy.png)
 
+| [Flashlight Password](https://github.com/zaumaiano/my-flutter-challenges/blob/main/flashlight_password/lib/app.dart) | [Magic Reading](https://github.com/zaumaiano/my-flutter-challenges/blob/main/magic_reading/lib/app.dart) | [Light Messages](https://github.com/zaumaiano/my-flutter-challenges/blob/main/light_messages/lib/app.dart) |
+|:-:|:-:|:-:|
+|![Flashlight Password](covers/flashlight_password.gif)|![Magic Reading](covers/magic_reading.gif)|![Light Messages](covers/light_messages.gif)|
+
 | [Macindows](https://github.com/zaumaiano/my-flutter-challenges/blob/main/macindows/lib/app.dart) |
 |:-:|
 |![Macindows](covers/macindows.gif)|
