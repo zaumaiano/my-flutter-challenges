@@ -8,6 +8,10 @@ React with a ⭐️ if you find it interesting and explore the challenges 😉
 
 ## Challenges
 
+| [Character Illustration](https://github.com/zaumaiano/my-flutter-challenges/blob/main/character_illustration/lib/app.dart) |
+|:-:|
+|![Character Illustration](covers/character_illustration.png)|
+
 | [Geometric Violin](https://github.com/zaumaiano/my-flutter-challenges/blob/main/geometric_violin/lib/app.dart) | [GameBoy Illustration](https://github.com/zaumaiano/my-flutter-challenges/blob/main/gameboy/lib/app.dart) |
 |:-:|:-:|
 |![Geometric Violin](covers/geometric_violin.png)|![GameBoy](covers/gameboy.png)
